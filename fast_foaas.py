@@ -73,6 +73,36 @@ def cup(from_name: str) -> str:
     return f"How about a nice cup of shut the fuck up? - {from_name}"
 
 
+def dalton(name: str, from_name: str) -> str:
+    return f"{name}: A fucking problem solving super-hero. - {from_name}"
+
+
+def dense(from_name: str) -> str:
+    return f"You disingenuous dense motherfucker! - {from_name}"
+
+
+def deraadt(name: str, from_name: str) -> str:
+    return f"{name} you are being the usual slimy hypocritical asshole... You may have had value ten years ago, but people will see that you don't anymore. - {from_name}"
+
+
+def diabetes(from_name: str) -> str:
+    return f"I'd love to stop and chat to you but I'd rather have type 2 diabetes. - {from_name}"
+
+
+def donut(name: str, from_name: str) -> str:
+    return (
+        f"{name}, go and take a flying fuck at a rolling donut. - {from_name}"
+    )
+
+
+def dosomething(do: str, something: str, from_name: str) -> str:
+    return f"{do} the fucking {something}! - {from_name}"
+
+
+def dumbledore(from_name: str) -> str:
+    return f"Happiness can be found, even in the darkest of times, if one only remembers to fuck off. - {from_name}"
+
+
 __all__ = [
     "anyway",
     "ashole",
@@ -92,5 +122,12 @@ __all__ = [
     "cocksplat",
     "cool",
     "cup",
+    "dalton",
+    "dense",
+    "deraadt",
+    "diabetes",
+    "donut",
+    "dosomething",
+    "dumbledore",
 ]
 __version__ = "2.2.0"

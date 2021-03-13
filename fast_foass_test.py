@@ -114,3 +114,51 @@ def test_cup():
         fast_foaas.cup("Sam")
         == "How about a nice cup of shut the fuck up? - Sam"
     )
+
+
+def test_dalton():
+    assert (
+        fast_foaas.dalton("John", "Sam")
+        == "John: A fucking problem solving super-hero. - Sam"
+    )
+
+
+def test_dense():
+    assert (
+        fast_foaas.dense("Sam") == "You disingenuous dense motherfucker! - Sam"
+    )
+
+
+def test_deraadt():
+    assert (
+        fast_foaas.deraadt("John", "Sam")
+        == "John you are being the usual slimy hypocritical asshole... You may have had value ten years ago, but people will see that you don't anymore. - Sam"
+    )
+
+
+def test_diabetes():
+    assert (
+        fast_foaas.diabetes("Sam")
+        == "I'd love to stop and chat to you but I'd rather have type 2 diabetes. - Sam"
+    )
+
+
+def test_donut():
+    assert (
+        fast_foaas.donut("John", "Sam")
+        == "John, go and take a flying fuck at a rolling donut. - Sam"
+    )
+
+
+def test_dosomething():
+    assert (
+        fast_foaas.dosomething("Write", "test", "Sam")
+        == "Write the fucking test! - Sam"
+    )
+
+
+def test_dumbledore():
+    assert (
+        fast_foaas.dumbledore("Sam")
+        == "Happiness can be found, even in the darkest of times, if one only remembers to fuck off. - Sam"
+    )
