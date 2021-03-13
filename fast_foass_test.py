@@ -26,5 +26,12 @@ def test_bag():
     assert fast_foaas.bag("Sam") == "Eat a bag of fucking dicks. - Sam"
 
 
+def test_balmer():
+    assert (
+        fast_foaas.balmer("John", "LM", "Sam")
+        == "Fucking John is a fucking pussy. I'm going to fucking bury that guy, I have done it before, and I will do it again. I'm going to fucking kill LM. - Sam"
+    )
+
+
 def test_back():
     assert fast_foaas.back("John", "Sam") == "John, back the fuck off. - Sam"

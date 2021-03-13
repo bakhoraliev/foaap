@@ -17,9 +17,13 @@ def bag(from_name: str) -> str:
     return f"Eat a bag of fucking dicks. - {from_name}"
 
 
+def balmer(name: str, company, from_name: str):
+    return f"Fucking {name} is a fucking pussy. I'm going to fucking bury that guy, I have done it before, and I will do it again. I'm going to fucking kill {company}. - {from_name}"
+
+
 def back(name: str, from_name: str) -> str:
     return f"{name}, back the fuck off. - {from_name}"
 
 
-__all__ = ["anyway", "ashole", "awesome", "bag", "back"]
+__all__ = ["anyway", "ashole", "awesome", "bag", "balmer", "back"]
 __version__ = "2.2.0"
