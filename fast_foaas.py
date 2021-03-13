@@ -9,5 +9,9 @@ def ashole(name: str) -> str:
     return f"Fuck you, asshole. - {name}"
 
 
-__all__ = ["anyway", "ashole"]
+def awesome(name: str) -> str:
+    return f"This is Fucking Awesome. - {name}"
+
+
+__all__ = ["anyway", "ashole", "awesome"]
 __version__ = "2.2.0"
