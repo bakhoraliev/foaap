@@ -25,5 +25,9 @@ def back(name: str, from_name: str) -> str:
     return f"{name}, back the fuck off. - {from_name}"
 
 
-__all__ = ["anyway", "ashole", "awesome", "bag", "balmer", "back"]
+def bday(name: str, from_name: str) -> str:
+    return f"Happy Fucking Birthday, {name}. - {from_name}"
+
+
+__all__ = ["anyway", "ashole", "awesome", "bag", "balmer", "back", "bday"]
 __version__ = "2.2.0"

@@ -35,3 +35,9 @@ def test_balmer():
 
 def test_back():
     assert fast_foaas.back("John", "Sam") == "John, back the fuck off. - Sam"
+
+
+def test_bday():
+    assert (
+        fast_foaas.bday("John", "Sam") == "Happy Fucking Birthday, John. - Sam"
+    )
