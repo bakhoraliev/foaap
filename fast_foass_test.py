@@ -2,9 +2,16 @@ import fast_foaas
 
 
 def test_operations_in_all():
-    assert len([x for x in dir(fast_foaas) if "_" not in x]) == len(
-        fast_foaas.__all__
-    )
+    operations = [
+        operation for operation in dir(fast_foaas) if "_" not in operation
+    ]
+    missed_operations = [
+        operation
+        for operation in operations
+        if operation not in fast_foaas.__all__
+    ]
+    if missed_operations:
+        raise AssertionError(f"Miss {missed_operations} in __all__")
 
 
 def test_anyway():
@@ -40,4 +47,70 @@ def test_back():
 def test_bday():
     assert (
         fast_foaas.bday("John", "Sam") == "Happy Fucking Birthday, John. - Sam"
+    )
+
+
+def test_because():
+    assert (
+        fast_foaas.because("Sam") == "Why? Because fuck you, that's why. - Sam"
+    )
+
+
+def test_blackadder():
+    assert (
+        fast_foaas.blackadder("John", "Sam")
+        == "John, your head is as empty as a eunuch’s underpants. Fuck off! - Sam"
+    )
+
+
+def test_bm():
+    assert fast_foaas.bm("John", "Sam") == "Bravo mike, John. - Sam"
+
+
+def test_bucket():
+    assert (
+        fast_foaas.bucket("Sam") == "Please choke on a bucket of cocks. - Sam"
+    )
+
+
+def test_bus():
+    assert (
+        fast_foaas.bus("John", "Sam")
+        == "Christ on a bendy-bus, John, don't be such a fucking faff-arse. - Sam"
+    )
+
+
+def test_bye():
+    assert fast_foaas.bye("Sam") == "Fuckity bye! - Sam"
+
+
+def test_caniuse():
+    assert (
+        fast_foaas.caniuse("FOAAS", "Sam")
+        == "Can you use FOAAS? Fuck no! - Sam"
+    )
+
+
+def test_chainsaw():
+    assert (
+        fast_foaas.chainsaw("John", "Sam")
+        == "Fuck me gently with a chainsaw, John. Do I look like Mother Teresa? - Sam"
+    )
+
+
+def test_cocksplat():
+    assert (
+        fast_foaas.cocksplat("John", "Sam")
+        == "Fuck off John, you worthless cocksplat - Sam"
+    )
+
+
+def test_cool():
+    assert fast_foaas.cool("Sam") == "Cool story, bro. - Sam"
+
+
+def test_cup():
+    assert (
+        fast_foaas.cup("Sam")
+        == "How about a nice cup of shut the fuck up? - Sam"
     )
