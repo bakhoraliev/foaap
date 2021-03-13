@@ -22,5 +22,9 @@ def test_awesome():
     assert fast_foaas.awesome("Sam") == "This is Fucking Awesome. - Sam"
 
 
+def test_bag():
+    assert fast_foaas.bag("Sam") == "Eat a bag of fucking dicks. - Sam"
+
+
 def test_back():
     assert fast_foaas.back("John", "Sam") == "John, back the fuck off. - Sam"

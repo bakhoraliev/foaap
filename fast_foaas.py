@@ -13,9 +13,13 @@ def awesome(from_name: str) -> str:
     return f"This is Fucking Awesome. - {from_name}"
 
 
+def bag(from_name: str) -> str:
+    return f"Eat a bag of fucking dicks. - {from_name}"
+
+
 def back(name: str, from_name: str) -> str:
     return f"{name}, back the fuck off. - {from_name}"
 
 
-__all__ = ["anyway", "ashole", "awesome", "back"]
+__all__ = ["anyway", "ashole", "awesome", "bag", "back"]
 __version__ = "2.2.0"
