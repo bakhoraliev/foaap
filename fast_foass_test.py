@@ -162,3 +162,22 @@ def test_dumbledore():
         fast_foaas.dumbledore("Sam")
         == "Happiness can be found, even in the darkest of times, if one only remembers to fuck off. - Sam"
     )
+
+
+def test_equity():
+    assert (
+        fast_foaas.equity("John", "Sam")
+        == "Equity only? Long hours? Zero Pay? Well John, just sign me right the fuck up. - Sam"
+    )
+
+
+def test_even():
+    assert fast_foaas.even("Sam") == "I can't fuckin' even. - Sam"
+
+
+def test_everyone():
+    assert fast_foaas.everyone("Sam") == "Everyone can go and fuck off. - Sam"
+
+
+def test_everything():
+    assert fast_foaas.everything("Sam") == "Fuck everything. - Sam"

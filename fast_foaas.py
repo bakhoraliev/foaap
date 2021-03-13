@@ -103,6 +103,22 @@ def dumbledore(from_name: str) -> str:
     return f"Happiness can be found, even in the darkest of times, if one only remembers to fuck off. - {from_name}"
 
 
+def equity(name: str, from_name: str) -> str:
+    return f"Equity only? Long hours? Zero Pay? Well {name}, just sign me right the fuck up. - {from_name}"
+
+
+def even(from_name: str) -> str:
+    return f"I can't fuckin' even. - {from_name}"
+
+
+def everyone(from_name: str) -> str:
+    return f"Everyone can go and fuck off. - {from_name}"
+
+
+def everything(from_name: str) -> str:
+    return f"Fuck everything. - {from_name}"
+
+
 __all__ = [
     "anyway",
     "ashole",
@@ -129,5 +145,9 @@ __all__ = [
     "donut",
     "dosomething",
     "dumbledore",
+    "equity",
+    "even",
+    "everyone",
+    "everything",
 ]
 __version__ = "2.2.0"
