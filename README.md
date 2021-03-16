@@ -4,6 +4,7 @@
 
 
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![codecov](https://codecov.io/gh/ilhomidin/foaap/branch/main/graph/badge.svg?token=O0OYHO9VRT)](https://codecov.io/gh/ilhomidin/foaap)
 
 FOAAP (Fuck Of As A Package) solves a simple [foaas-python](https://github.com/dmpayton/foaas-python) problem — telling people to fuck off, faster.
 
