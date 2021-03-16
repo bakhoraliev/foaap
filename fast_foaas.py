@@ -309,6 +309,26 @@ def rtfm(from_name: str) -> str:
     return f"Read the fucking manual! - {from_name}"
 
 
+def sake(from_name: str) -> str:
+    return f"For Fuck's sake! - {from_name}"
+
+
+def shakespeare(name: str, from_name: str) -> str:
+    return f"{name}, Thou clay-brained guts, thou knotty-pated fool, thou whoreson obscene greasy tallow-catch! - {from_name}"
+
+
+def shit(from_name: str) -> str:
+    return f"Fuck this shit! - {from_name}"
+
+
+def shutup(name: str, from_name: str) -> str:
+    return f"{name}, shut the fuck up. - {from_name}"
+
+
+def single(from_name: str) -> str:
+    return f"Not a single fuck was given. - {from_name}"
+
+
 __all__ = [
     "anyway",
     "ashole",
@@ -386,5 +406,10 @@ __all__ = [
     "ridiculous",
     "rockstar",
     "rtfm",
+    "sake",
+    "shakespeare",
+    "shit",
+    "shutup",
+    "single",
 ]
 __version__ = "2.2.0"

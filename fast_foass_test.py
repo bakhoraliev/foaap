@@ -447,3 +447,26 @@ def test_rockstar():
 
 def test_rtfm():
     assert fast_foaas.rtfm("Sam") == "Read the fucking manual! - Sam"
+
+
+def test_sake():
+    assert fast_foaas.sake("Sam") == "For Fuck's sake! - Sam"
+
+
+def test_shakespeare():
+    assert (
+        fast_foaas.shakespeare("John", "Sam")
+        == "John, Thou clay-brained guts, thou knotty-pated fool, thou whoreson obscene greasy tallow-catch! - Sam"
+    )
+
+
+def test_shit():
+    assert fast_foaas.shit("Sam") == "Fuck this shit! - Sam"
+
+
+def test_shutup():
+    assert fast_foaas.shutup("John", "Sam") == "John, shut the fuck up. - Sam"
+
+
+def test_single():
+    assert fast_foaas.single("Sam") == "Not a single fuck was given. - Sam"
