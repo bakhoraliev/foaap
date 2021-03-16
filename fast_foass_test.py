@@ -279,3 +279,24 @@ def test_jinglebells():
         fast_foaas.jinglebells("Sam")
         == "Fuck you, fuck me, fuck your family. Fuck your father, fuck your mother, fuck you and me. - Sam"
     )
+
+
+def test_keep():
+    assert (
+        fast_foaas.keep("John", "Sam")
+        == "John: Fuck off. And when you get there, fuck off from there too. Then fuck off some more. Keep fucking off until you get back here. Then fuck off again. - Sam"
+    )
+
+
+def test_keepcalm():
+    assert (
+        fast_foaas.keepcalm("write tests", "Sam")
+        == "Keep the fuck calm and write tests! - Sam"
+    )
+
+
+def test_king():
+    assert (
+        fast_foaas.king("John", "Sam")
+        == "Oh fuck off, just really fuck off you total dickface. Christ, John, you are fucking thick. - Sam"
+    )

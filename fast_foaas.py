@@ -187,6 +187,18 @@ def jinglebells(from_name: str) -> str:
     return f"Fuck you, fuck me, fuck your family. Fuck your father, fuck your mother, fuck you and me. - {from_name}"
 
 
+def keep(name: str, from_name: str) -> str:
+    return f"{name}: Fuck off. And when you get there, fuck off from there too. Then fuck off some more. Keep fucking off until you get back here. Then fuck off again. - {from_name}"
+
+
+def keepcalm(reaction: str, from_name: str) -> str:
+    return f"Keep the fuck calm and {reaction}! - {from_name}"
+
+
+def king(name: str, from_name: str) -> str:
+    return f"Oh fuck off, just really fuck off you total dickface. Christ, {name}, you are fucking thick. - {from_name}"
+
+
 __all__ = [
     "anyway",
     "ashole",
@@ -234,5 +246,8 @@ __all__ = [
     "immensity",
     "ing",
     "jinglebells",
+    "keep",
+    "keepcalm",
+    "king",
 ]
 __version__ = "2.2.0"
