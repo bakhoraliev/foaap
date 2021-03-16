@@ -300,3 +300,40 @@ def test_king():
         fast_foaas.king("John", "Sam")
         == "Oh fuck off, just really fuck off you total dickface. Christ, John, you are fucking thick. - Sam"
     )
+
+
+def test_legend():
+    assert (
+        fast_foaas.legend("John", "Sam")
+        == "John, you're a fucking legend. - Sam"
+    )
+
+
+def test_life():
+    assert fast_foaas.life("Sam") == "Fuck my life. - Sam"
+
+
+def test_linus():
+    assert (
+        fast_foaas.linus("John", "Sam")
+        == "John, there aren't enough swear-words in the English language, so now I'll have to call you perkeleen vittupää just to express my disgust and frustration with this crap. - Sam"
+    )
+
+
+def test_logs():
+    assert fast_foaas.logs("Sam") == "Check your fucking logs! - Sam"
+
+
+def test_look():
+    assert (
+        fast_foaas.look("John", "Sam")
+        == "John, do I look like I give a fuck? - Sam"
+    )
+
+
+def test_looking():
+    assert fast_foaas.looking("Sam") == "Looking for a fuck to give. - Sam"
+
+
+def test_lowpoly():
+    assert fast_foaas.lowpoly("Sam") == "You low polygon motherfucker! - Sam"

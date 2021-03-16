@@ -199,6 +199,34 @@ def king(name: str, from_name: str) -> str:
     return f"Oh fuck off, just really fuck off you total dickface. Christ, {name}, you are fucking thick. - {from_name}"
 
 
+def legend(name: str, from_name: str) -> str:
+    return f"{name}, you're a fucking legend. - {from_name}"
+
+
+def life(from_name: str) -> str:
+    return f"Fuck my life. - {from_name}"
+
+
+def linus(name: str, from_name: str) -> str:
+    return f"{name}, there aren't enough swear-words in the English language, so now I'll have to call you perkeleen vittupää just to express my disgust and frustration with this crap. - {from_name}"
+
+
+def logs(from_name: str) -> str:
+    return f"Check your fucking logs! - {from_name}"
+
+
+def look(name: str, from_name: str) -> str:
+    return f"{name}, do I look like I give a fuck? - {from_name}"
+
+
+def looking(from_name: str) -> str:
+    return f"Looking for a fuck to give. - {from_name}"
+
+
+def lowpoly(from_name: str) -> str:
+    return f"You low polygon motherfucker! - {from_name}"
+
+
 __all__ = [
     "anyway",
     "ashole",
@@ -249,5 +277,12 @@ __all__ = [
     "keep",
     "keepcalm",
     "king",
+    "legend",
+    "life",
+    "linus",
+    "logs",
+    "look",
+    "looking",
+    "lowpoly",
 ]
 __version__ = "2.2.0"
