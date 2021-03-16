@@ -470,3 +470,88 @@ def test_shutup():
 
 def test_single():
     assert fast_foaas.single("Sam") == "Not a single fuck was given. - Sam"
+
+
+def test_thanks():
+    assert fast_foaas.thanks("Sam") == "Fuck you very much. - Sam"
+
+
+def test_that():
+    assert fast_foaas.that("Sam") == "Fuck that. - Sam"
+
+
+def test_think():
+    assert (
+        fast_foaas.think("John", "Sam")
+        == "John, you think I give a fuck? - Sam"
+    )
+
+
+def test_thinking():
+    assert (
+        fast_foaas.thinking("John", "Sam")
+        == "John, what the fuck were you actually thinking? - Sam"
+    )
+
+
+def test_this():
+    assert fast_foaas.this("Sam") == "Fuck this. - Sam"
+
+
+def test_thumbs():
+    assert (
+        fast_foaas.thumbs("John", "Sam")
+        == "Who has two thumbs and doesn't give a fuck? John. - Sam"
+    )
+
+
+def test_too():
+    assert fast_foaas.too("Sam") == "Thanks, fuck you too. - Sam"
+
+
+def test_tucker():
+    assert (
+        fast_foaas.tucker("Sam")
+        == "Come the fuck in or fuck the fuck off. - Sam"
+    )
+
+
+def test_waste():
+    assert (
+        fast_foaas.waste("John", "Sam")
+        == "I don't waste my fucking time with your bullshit John! - Sam"
+    )
+
+
+def test_what():
+    assert fast_foaas.what("Sam") == "What the fuck‽ - Sam"
+
+
+def test_xmas():
+    assert (
+        fast_foaas.xmas("John", "Sam")
+        == "Merry Fucking Christmas, John. - Sam"
+    )
+
+
+def test_yeah():
+    assert fast_foaas.yeah("Sam") == "Fuck YEAH! - Sam"
+
+
+def test_yoda():
+    assert fast_foaas.yoda("John", "Sam") == "Fuck off, you must, John. - Sam"
+
+
+def test_you():
+    assert fast_foaas.you("John", "Sam") == "Fuck you, John. - Sam"
+
+
+def test_zayn():
+    assert fast_foaas.zayn("Sam") == "Ask me if I give a motherfuck ?!! - Sam"
+
+
+def test_zero():
+    assert (
+        fast_foaas.zero("Sam")
+        == "Zero, that's the number of fucks I give. - Sam"
+    )

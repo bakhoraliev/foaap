@@ -329,6 +329,70 @@ def single(from_name: str) -> str:
     return f"Not a single fuck was given. - {from_name}"
 
 
+def thanks(from_name: str) -> str:
+    return f"Fuck you very much. - {from_name}"
+
+
+def that(from_name: str) -> str:
+    return f"Fuck that. - {from_name}"
+
+
+def think(name: str, from_name: str) -> str:
+    return f"{name}, you think I give a fuck? - {from_name}"
+
+
+def thinking(name: str, from_name: str) -> str:
+    return f"{name}, what the fuck were you actually thinking? - {from_name}"
+
+
+def this(from_name: str) -> str:
+    return f"Fuck this. - {from_name}"
+
+
+def thumbs(name: str, from_name: str) -> str:
+    return f"Who has two thumbs and doesn't give a fuck? {name}. - {from_name}"
+
+
+def too(from_name: str) -> str:
+    return f"Thanks, fuck you too. - {from_name}"
+
+
+def tucker(from_name: str) -> str:
+    return f"Come the fuck in or fuck the fuck off. - {from_name}"
+
+
+def waste(name: str, from_name: str) -> str:
+    return f"I don't waste my fucking time with your bullshit {name}! - {from_name}"
+
+
+def what(from_name: str) -> str:
+    return f"What the fuck‽ - {from_name}"
+
+
+def xmas(name: str, from_name: str) -> str:
+    return f"Merry Fucking Christmas, {name}. - {from_name}"
+
+
+def yeah(from_name: str) -> str:
+    return f"Fuck YEAH! - {from_name}"
+
+
+def yoda(name: str, from_name: str) -> str:
+    return f"Fuck off, you must, {name}. - {from_name}"
+
+
+def you(name: str, from_name: str) -> str:
+    return f"Fuck you, {name}. - {from_name}"
+
+
+def zayn(from_name: str) -> str:
+    return f"Ask me if I give a motherfuck ?!! - {from_name}"
+
+
+def zero(from_name: str) -> str:
+    return f"Zero, that's the number of fucks I give. - {from_name}"
+
+
 __all__ = [
     "anyway",
     "ashole",
@@ -411,5 +475,21 @@ __all__ = [
     "shit",
     "shutup",
     "single",
+    "thanks",
+    "that",
+    "think",
+    "thinking",
+    "this",
+    "thumbs",
+    "too",
+    "tucker",
+    "waste",
+    "what",
+    "xmas",
+    "yeah",
+    "yoda",
+    "you",
+    "zayn",
+    "zero",
 ]
 __version__ = "2.2.0"
