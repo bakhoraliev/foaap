@@ -417,3 +417,33 @@ def test_pulp():
         fast_foaas.pulp("English", "Sam")
         == "English, motherfucker, do you speak it? - Sam"
     )
+
+
+def test_question():
+    assert (
+        fast_foaas.question("Sam")
+        == "To fuck off, or to fuck off (that is not a question) - Sam"
+    )
+
+
+def test_ratsarse():
+    assert fast_foaas.ratsarse("Sam") == "I don't give a rat's arse. - Sam"
+
+
+def test_retard():
+    assert fast_foaas.retard("Sam") == "You Fucktard! - Sam"
+
+
+def test_ridiculous():
+    assert fast_foaas.ridiculous("Sam") == "That's fucking ridiculous - Sam"
+
+
+def test_rockstar():
+    assert (
+        fast_foaas.rockstar("John", "Sam")
+        == "John, you're a fucking Rock Star! - Sam"
+    )
+
+
+def test_rtfm():
+    assert fast_foaas.rtfm("Sam") == "Read the fucking manual! - Sam"

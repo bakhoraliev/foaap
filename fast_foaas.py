@@ -283,6 +283,32 @@ def pulp(language: str, from_name: str) -> str:
     return f"{language}, motherfucker, do you speak it? - {from_name}"
 
 
+def question(from_name: str) -> str:
+    return (
+        f"To fuck off, or to fuck off (that is not a question) - {from_name}"
+    )
+
+
+def ratsarse(from_name: str) -> str:
+    return f"I don't give a rat's arse. - {from_name}"
+
+
+def retard(from_name: str) -> str:
+    return f"You Fucktard! - {from_name}"
+
+
+def ridiculous(from_name: str) -> str:
+    return f"That's fucking ridiculous - {from_name}"
+
+
+def rockstar(name: str, from_name: str) -> str:
+    return f"{name}, you're a fucking Rock Star! - {from_name}"
+
+
+def rtfm(from_name: str) -> str:
+    return f"Read the fucking manual! - {from_name}"
+
+
 __all__ = [
     "anyway",
     "ashole",
@@ -354,5 +380,11 @@ __all__ = [
     "problem",
     "programmer",
     "pulp",
+    "question",
+    "ratsarse",
+    "retard",
+    "ridiculous",
+    "rockstar",
+    "rtfm",
 ]
 __version__ = "2.2.0"
