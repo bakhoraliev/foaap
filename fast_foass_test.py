@@ -359,3 +359,61 @@ def test_me():
 
 def test_mornin():
     assert fast_foaas.mornin("Sam") == "Happy fuckin' mornin'! - Sam"
+
+
+def test_no():
+    assert fast_foaas.no("Sam") == "No fucks given. - Sam"
+
+
+def test_nugget():
+    assert (
+        fast_foaas.nugget("John", "Sam")
+        == "Well John, aren't you a shining example of a rancid fuck-nugget. - Sam"
+    )
+
+
+def test_off():
+    assert fast_foaas.off("John", "Sam") == "Fuck off, John. - Sam"
+
+
+def test_off_with():
+    assert fast_foaas.off_with("love", "Sam") == "Fuck off with love - Sam"
+
+
+def test_outside():
+    assert (
+        fast_foaas.outside("John", "Sam")
+        == "John, why don't you go outside and play hide-and-go-fuck-yourself? - Sam"
+    )
+
+
+def test_particular():
+    assert (
+        fast_foaas.particular("cookie", "Sam")
+        == "Fuck this cookie in particular. - Sam"
+    )
+
+
+def test_pink():
+    assert fast_foaas.pink("Sam") == "Well, fuck me pink. - Sam"
+
+
+def test_problem():
+    assert (
+        fast_foaas.problem("John", "Sam")
+        == "What the fuck is your problem John? - Sam"
+    )
+
+
+def test_programmer():
+    assert (
+        fast_foaas.programmer("Sam")
+        == "Fuck you, I'm a programmer, bitch! - Sam"
+    )
+
+
+def test_pulp():
+    assert (
+        fast_foaas.pulp("English", "Sam")
+        == "English, motherfucker, do you speak it? - Sam"
+    )

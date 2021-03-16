@@ -243,6 +243,46 @@ def mornin(from_name: str) -> str:
     return f"Happy fuckin' mornin'! - {from_name}"
 
 
+def no(from_name: str) -> str:
+    return f"No fucks given. - {from_name}"
+
+
+def nugget(name: str, from_name: str) -> str:
+    return f"Well {name}, aren't you a shining example of a rancid fuck-nugget. - {from_name}"
+
+
+def off(name: str, from_name: str) -> str:
+    return f"Fuck off, {name}. - {from_name}"
+
+
+def off_with(behavior: str, from_name: str) -> str:
+    return f"Fuck off with {behavior} - {from_name}"
+
+
+def outside(name: str, from_name: str) -> str:
+    return f"{name}, why don't you go outside and play hide-and-go-fuck-yourself? - {from_name}"
+
+
+def particular(thing: str, from_name: str) -> str:
+    return f"Fuck this {thing} in particular. - {from_name}"
+
+
+def pink(from_name: str) -> str:
+    return f"Well, fuck me pink. - {from_name}"
+
+
+def problem(name: str, from_name: str) -> str:
+    return f"What the fuck is your problem {name}? - {from_name}"
+
+
+def programmer(from_name: str) -> str:
+    return f"Fuck you, I'm a programmer, bitch! - {from_name}"
+
+
+def pulp(language: str, from_name: str) -> str:
+    return f"{language}, motherfucker, do you speak it? - {from_name}"
+
+
 __all__ = [
     "anyway",
     "ashole",
@@ -304,5 +344,15 @@ __all__ = [
     "maybe",
     "me",
     "mornin",
+    "no",
+    "nugget",
+    "off",
+    "off_with",
+    "outside",
+    "particular",
+    "pink",
+    "problem",
+    "programmer",
+    "pulp",
 ]
 __version__ = "2.2.0"
