@@ -1,4 +1,9 @@
-"""Faster version of FOAAS"""
+"""Fuck Of As A Package.
+
+Faster Python version of FOAAS.
+Fully FOAAS API compliant.
+Check the README for more documentation.
+"""
 
 
 def anyway(company: str, from_name: str) -> str:

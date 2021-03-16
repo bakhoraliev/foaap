@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "fast_foaas"
+name = "foaat"
 version = "2.2.0"
-description = "Fuck Off As A Service"
+description = "Fuck Off As A Package"
 authors = ["Ilhomidin Bahoraliev <itilhomidin@yandex.com>"]
 license = "MIT"
 
