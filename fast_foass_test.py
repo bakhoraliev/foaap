@@ -181,3 +181,47 @@ def test_everyone():
 
 def test_everything():
     assert fast_foaas.everything("Sam") == "Fuck everything. - Sam"
+
+
+def test_family():
+    assert (
+        fast_foaas.family("Sam")
+        == "Fuck you, your whole family, your pets, and your feces. - Sam"
+    )
+
+
+def test_fascinating():
+    assert (
+        fast_foaas.fascinating("Sam")
+        == "Fascinating story, in what chapter do you shut the fuck up? - Sam"
+    )
+
+
+def test_fewer():
+    assert (
+        fast_foaas.fewer("John", "Sam")
+        == "Go fuck yourself John, you'll disappoint fewer people. - Sam"
+    )
+
+
+def test_field():
+    assert (
+        fast_foaas.field("John", "Sam", "Lui")
+        == "And John said unto Sam, 'Verily, cast thine eyes upon the field in which I grow my fucks', and Sam gave witness unto the field, and saw that it was barren. - Lui"
+    )
+
+
+def test_flying():
+    assert fast_foaas.flying("Sam") == "I don't give a flying fuck. - Sam"
+
+
+def test_ftfy():
+    assert fast_foaas.ftfy("Sam") == "Fuck That, Fuck You - Sam"
+
+
+def test_fts():
+    assert fast_foaas.fts("John", "Sam") == "Fuck that shit, John. - Sam"
+
+
+def test_fyyff():
+    assert fast_foaas.fyyff("Sam") == "Fuck you, you fucking fuck. - Sam"

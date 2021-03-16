@@ -119,6 +119,38 @@ def everything(from_name: str) -> str:
     return f"Fuck everything. - {from_name}"
 
 
+def family(from_name: str) -> str:
+    return f"Fuck you, your whole family, your pets, and your feces. - {from_name}"
+
+
+def fascinating(from_name: str) -> str:
+    return f"Fascinating story, in what chapter do you shut the fuck up? - {from_name}"
+
+
+def fewer(name: str, from_name: str) -> str:
+    return f"Go fuck yourself {name}, you'll disappoint fewer people. - {from_name}"
+
+
+def field(name: str, from_name: str, reference: str) -> str:
+    return f"And {name} said unto {from_name}, 'Verily, cast thine eyes upon the field in which I grow my fucks', and {from_name} gave witness unto the field, and saw that it was barren. - {reference}"
+
+
+def flying(from_name: str) -> str:
+    return f"I don't give a flying fuck. - {from_name}"
+
+
+def ftfy(from_name: str) -> str:
+    return f"Fuck That, Fuck You - {from_name}"
+
+
+def fts(name: str, from_name: str) -> str:
+    return f"Fuck that shit, {name}. - {from_name}"
+
+
+def fyyff(from_name: str) -> str:
+    return f"Fuck you, you fucking fuck. - {from_name}"
+
+
 __all__ = [
     "anyway",
     "ashole",
@@ -149,5 +181,13 @@ __all__ = [
     "even",
     "everyone",
     "everything",
+    "family",
+    "fascinating",
+    "fewer",
+    "field",
+    "flying",
+    "ftfy",
+    "fts",
+    "fyyff",
 ]
 __version__ = "2.2.0"
