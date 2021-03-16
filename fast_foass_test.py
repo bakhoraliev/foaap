@@ -337,3 +337,25 @@ def test_looking():
 
 def test_lowpoly():
     assert fast_foaas.lowpoly("Sam") == "You low polygon motherfucker! - Sam"
+
+
+def test_madison():
+    assert (
+        fast_foaas.madison("John", "Sam")
+        == "What you've just said is one of the most insanely idiotic things I have ever heard, John. At no point in your rambling, incoherent response were you even close to anything that could be considered a rational thought. Everyone in this room is now dumber for having listened to it. I award you no points :name, and may God have mercy on your soul. - Sam"
+    )
+
+
+def test_maybe():
+    assert (
+        fast_foaas.maybe("Sam")
+        == "Maybe. Maybe not. Maybe fuck yourself. - Sam"
+    )
+
+
+def test_me():
+    assert fast_foaas.me("Sam") == "Fuck me. - Sam"
+
+
+def test_mornin():
+    assert fast_foaas.mornin("Sam") == "Happy fuckin' mornin'! - Sam"

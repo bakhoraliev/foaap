@@ -227,6 +227,22 @@ def lowpoly(from_name: str) -> str:
     return f"You low polygon motherfucker! - {from_name}"
 
 
+def madison(name: str, from_name: str) -> str:
+    return f"What you've just said is one of the most insanely idiotic things I have ever heard, {name}. At no point in your rambling, incoherent response were you even close to anything that could be considered a rational thought. Everyone in this room is now dumber for having listened to it. I award you no points :name, and may God have mercy on your soul. - {from_name}"
+
+
+def maybe(from_name: str) -> str:
+    return f"Maybe. Maybe not. Maybe fuck yourself. - {from_name}"
+
+
+def me(from_name: str) -> str:
+    return f"Fuck me. - {from_name}"
+
+
+def mornin(from_name: str) -> str:
+    return f"Happy fuckin' mornin'! - {from_name}"
+
+
 __all__ = [
     "anyway",
     "ashole",
@@ -284,5 +300,9 @@ __all__ = [
     "look",
     "looking",
     "lowpoly",
+    "madison",
+    "maybe",
+    "me",
+    "mornin",
 ]
 __version__ = "2.2.0"
