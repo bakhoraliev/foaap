@@ -151,6 +151,18 @@ def fyyff(from_name: str) -> str:
     return f"Fuck you, you fucking fuck. - {from_name}"
 
 
+def gfy(name: str, from_name: str) -> str:
+    return f"Golf foxtrot yankee, {name}. - {from_name}"
+
+
+def give(from_name: str) -> str:
+    return f"I give zero fucks. - {from_name}"
+
+
+def greed(noun: str, from_name: str) -> str:
+    return f"The point is, ladies and gentleman, that {noun} -- for lack of a better word -- is good. {noun} is right. {noun} works. {noun} clarifies, cuts through, and captures the essence of the evolutionary spirit. {noun}, in all of its forms -- {noun} for life, for money, for love, knowledge -- has marked the upward surge of mankind. - {from_name}"
+
+
 __all__ = [
     "anyway",
     "ashole",
@@ -189,5 +201,8 @@ __all__ = [
     "ftfy",
     "fts",
     "fyyff",
+    "gfy",
+    "give",
+    "greed",
 ]
 __version__ = "2.2.0"

@@ -225,3 +225,18 @@ def test_fts():
 
 def test_fyyff():
     assert fast_foaas.fyyff("Sam") == "Fuck you, you fucking fuck. - Sam"
+
+
+def test_gfy():
+    assert fast_foaas.gfy("John", "Sam") == "Golf foxtrot yankee, John. - Sam"
+
+
+def test_give():
+    assert fast_foaas.give("Sam") == "I give zero fucks. - Sam"
+
+
+def test_greed():
+    assert (
+        fast_foaas.greed("cookie", "Sam")
+        == "The point is, ladies and gentleman, that cookie -- for lack of a better word -- is good. cookie is right. cookie works. cookie clarifies, cuts through, and captures the essence of the evolutionary spirit. cookie, in all of its forms -- cookie for life, for money, for love, knowledge -- has marked the upward surge of mankind. - Sam"
+    )
