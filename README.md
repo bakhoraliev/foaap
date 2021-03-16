@@ -8,17 +8,17 @@
 FOAAP (Fuck Of As A Package) solves a simple [foaas-python](https://github.com/dmpayton/foaas-python) problem — telling people to fuck off, faster.
 
 ```python
-import foaat
+import foaap
 
 
 # Maybe. Maybe not. Maybe fuck yourself. - Syu
-foaat.maybe("Syu")
+foaap.maybe("Syu")
 ```
 
 
 # Installation
 ```bash
-pip install foaat
+pip install foaap
 ```
 
 # Supported Operations
