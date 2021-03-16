@@ -183,6 +183,10 @@ def ing(name: str, from_name: str) -> str:
     return f"Fucking fuck off, {name}. - {from_name}"
 
 
+def jinglebells(from_name: str) -> str:
+    return f"Fuck you, fuck me, fuck your family. Fuck your father, fuck your mother, fuck you and me. - {from_name}"
+
+
 __all__ = [
     "anyway",
     "ashole",
@@ -229,5 +233,6 @@ __all__ = [
     "idea",
     "immensity",
     "ing",
+    "jinglebells",
 ]
 __version__ = "2.2.0"

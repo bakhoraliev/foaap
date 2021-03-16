@@ -272,3 +272,10 @@ def test_immensity():
 
 def test_ing():
     assert fast_foaas.ing("John", "Sam") == "Fucking fuck off, John. - Sam"
+
+
+def test_jinglebells():
+    assert (
+        fast_foaas.jinglebells("Sam")
+        == "Fuck you, fuck me, fuck your family. Fuck your father, fuck your mother, fuck you and me. - Sam"
+    )
