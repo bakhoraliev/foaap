@@ -163,6 +163,14 @@ def greed(noun: str, from_name: str) -> str:
     return f"The point is, ladies and gentleman, that {noun} -- for lack of a better word -- is good. {noun} is right. {noun} works. {noun} clarifies, cuts through, and captures the essence of the evolutionary spirit. {noun}, in all of its forms -- {noun} for life, for money, for love, knowledge -- has marked the upward surge of mankind. - {from_name}"
 
 
+def holygrail(from_name: str) -> str:
+    return f"I don't want to talk to you, no more, you empty-headed animal, food trough wiper. I fart in your general direction. Your mother was a hamster and your father smelt of elderberries. Now go away or I shall taunt you a second time. - {from_name}"
+
+
+def horse(from_name: str) -> str:
+    return f"Fuck you and the horse you rode in on. - {from_name}"
+
+
 __all__ = [
     "anyway",
     "ashole",
@@ -204,5 +212,7 @@ __all__ = [
     "gfy",
     "give",
     "greed",
+    "holygrail",
+    "horse",
 ]
 __version__ = "2.2.0"

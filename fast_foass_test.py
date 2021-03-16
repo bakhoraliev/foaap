@@ -240,3 +240,17 @@ def test_greed():
         fast_foaas.greed("cookie", "Sam")
         == "The point is, ladies and gentleman, that cookie -- for lack of a better word -- is good. cookie is right. cookie works. cookie clarifies, cuts through, and captures the essence of the evolutionary spirit. cookie, in all of its forms -- cookie for life, for money, for love, knowledge -- has marked the upward surge of mankind. - Sam"
     )
+
+
+def test_holygrail():
+    assert (
+        fast_foaas.holygrail("Sam")
+        == "I don't want to talk to you, no more, you empty-headed animal, food trough wiper. I fart in your general direction. Your mother was a hamster and your father smelt of elderberries. Now go away or I shall taunt you a second time. - Sam"
+    )
+
+
+def test_horse():
+    assert (
+        fast_foaas.horse("Sam")
+        == "Fuck you and the horse you rode in on. - Sam"
+    )
