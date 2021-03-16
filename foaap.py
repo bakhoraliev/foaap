@@ -22,7 +22,7 @@ def bag(from_name: str) -> str:
     return f"Eat a bag of fucking dicks. - {from_name}"
 
 
-def balmer(name: str, company, from_name: str):
+def balmer(name: str, company: str, from_name: str) -> str:
     return f"Fucking {name} is a fucking pussy. I'm going to fucking bury that guy, I have done it before, and I will do it again. I'm going to fucking kill {company}. - {from_name}"
 
 
