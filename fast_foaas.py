@@ -171,6 +171,18 @@ def horse(from_name: str) -> str:
     return f"Fuck you and the horse you rode in on. - {from_name}"
 
 
+def idea(from_name: str) -> str:
+    return f"That sounds like a fucking great idea! - {from_name}"
+
+
+def immensity(from_name: str) -> str:
+    return f"You can not imagine the immensity of the FUCK I do not give. - {from_name}"
+
+
+def ing(name: str, from_name: str) -> str:
+    return f"Fucking fuck off, {name}. - {from_name}"
+
+
 __all__ = [
     "anyway",
     "ashole",
@@ -214,5 +226,8 @@ __all__ = [
     "greed",
     "holygrail",
     "horse",
+    "idea",
+    "immensity",
+    "ing",
 ]
 __version__ = "2.2.0"

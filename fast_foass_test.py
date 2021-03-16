@@ -254,3 +254,21 @@ def test_horse():
         fast_foaas.horse("Sam")
         == "Fuck you and the horse you rode in on. - Sam"
     )
+
+
+def test_idea():
+    assert (
+        fast_foaas.idea("Sam")
+        == "That sounds like a fucking great idea! - Sam"
+    )
+
+
+def test_immensity():
+    assert (
+        fast_foaas.immensity("Sam")
+        == "You can not imagine the immensity of the FUCK I do not give. - Sam"
+    )
+
+
+def test_ing():
+    assert fast_foaas.ing("John", "Sam") == "Fucking fuck off, John. - Sam"
