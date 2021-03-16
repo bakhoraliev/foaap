@@ -1,9 +1,18 @@
 [tool.poetry]
-name = "foaat"
+name = "foaap"
 version = "2.2.0"
 description = "Fuck Off As A Package"
 authors = ["Ilhomidin Bahoraliev <itilhomidin@yandex.com>"]
 license = "MIT"
+readme = "README.md"
+repository = "https://github.com/ilhomidin/foaap"
+keywords = ["FOASS"]
+classifiers = [
+  "Topic :: Software Development :: Libraries :: Python Modules",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3"
+  ]
 
 [tool.poetry.dependencies]
 python = "^3.9"
