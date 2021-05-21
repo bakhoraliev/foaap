@@ -366,6 +366,10 @@ def tucker(from_name: str) -> str:
     return f"Come the fuck in or fuck the fuck off. - {from_name}"
 
 
+def understand(name: str, from_name: str) -> str:
+    return f"Listen here {name}! What part of 'Fuck Off' don't you understand? - {from_name}"
+
+
 def waste(name: str, from_name: str) -> str:
     return f"I don't waste my fucking time with your bullshit {name}! - {from_name}"
 
@@ -488,6 +492,7 @@ __all__ = [
     "thumbs",
     "too",
     "tucker",
+    "understand",
     "waste",
     "what",
     "xmas",

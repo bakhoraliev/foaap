@@ -487,6 +487,13 @@ def test_tucker():
     )
 
 
+def test_understand():
+    assert (
+        foaap.understand("John", "Sam")
+        == "Listen here John! What part of 'Fuck Off' don't you understand? - Sam"
+    )
+
+
 def test_waste():
     assert (
         foaap.waste("John", "Sam")
