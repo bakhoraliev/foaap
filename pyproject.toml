@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "foaap"
-version = "2.2.0"
+version = "2.3.0"
 description = "Fuck Off As A Package"
 authors = ["Ilhomidin Bahoraliev <itilhomidin@yandex.com>"]
 license = "MIT"

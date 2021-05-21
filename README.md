@@ -1,6 +1,6 @@
 # FOAAP
 
-*[FOAAS API v2.2.0](https://foaas.com/) compliant.*
+*[FOAAS API v2.3.0](https://foaas.com/) compliant.*
 
 
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
