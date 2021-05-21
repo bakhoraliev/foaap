@@ -1,6 +1,6 @@
 # FOAAP
 
-*[FOAAS API v2.2.0](https://foaas.com/) compliant.*
+*[FOAAS API v2.3.0](https://foaas.com/) compliant.*
 
 
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
@@ -113,6 +113,7 @@ pip install foaap
 - `thumbs(name: str, from_name: str)`
 - `too(from_name: str)`
 - `tucker(from_name: str)`
+- `understand(name: str, from_name: str)`
 - `waste(name: str, from_name: str)`
 - `what(from_name: str)`
 - `xmas(name: str, from_name: str)`
