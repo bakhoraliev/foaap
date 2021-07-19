@@ -12,6 +12,13 @@ def test_operations_in_all():
         raise AssertionError(f"Miss {missed_operations} in __all__")
 
 
+def test_absolutely():
+    assert (
+        foaap.absolutely("LM", "Sam")
+        == "Absolutely fucking Not, LM, No Fucking Way! - Sam"
+    )
+
+
 def test_anyway():
     assert (
         foaap.anyway("LM", "Sam")

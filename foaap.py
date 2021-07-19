@@ -6,6 +6,10 @@ Check the README for more documentation.
 """
 
 
+def absolutely(company: str, from_name: str) -> str:
+    return f"Absolutely fucking Not, {company}, No Fucking Way! - {from_name}"
+
+
 def anyway(company: str, from_name: str) -> str:
     return f"Who the fuck are you anyway, {company}, why are you stirring up so much trouble, and, who pays you? - {from_name}"
 
@@ -403,6 +407,7 @@ def zero(from_name: str) -> str:
 
 
 __all__ = [
+    "absolutely",
     "anyway",
     "ashole",
     "awesome",
