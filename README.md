@@ -1,6 +1,6 @@
 # FOAAP
 
-*[FOAAS API v2.3.0](https://foaas.com/) compliant.*
+*[FOAAS API v2.3.1](https://foaas.com/) compliant.*
 
 
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
@@ -24,6 +24,7 @@ pip install foaap
 
 # Supported Operations
 
+- `absolutely(company: str, from_name: str)`
 - `anyway(company: str, from_name: str)`
 - `ashole(from_name: str)`
 - `awesome(from_name: str)`
